@@ -1,4 +1,4 @@
-#include <<stdio.h>
+#include <stdio.h>
 /**
  * main - to be called
  * return:0 for the int
