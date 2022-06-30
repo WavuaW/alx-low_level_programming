@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main and void
- * Return:0 for set int
+ * Return: 0 for set int
  */
  int main(void)
  {
