@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main- main block to be called 
- * Return: 0 for the int
+* main- main block to be called 
+* Return: 0 for the int
 */
 int main(void)
 {
