@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+ * main and void 
+ *
+ * Return: 0 for set int
+ * /
+ int(void)
+ {
+          puts("\"Programming is like building a multilingual puzzle");
+         return (0);	  
+
+ }
