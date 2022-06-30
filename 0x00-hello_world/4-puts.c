@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main and void
+ * main - block main to be called
  * Return: 0 for set int
  */
  int main(void)
