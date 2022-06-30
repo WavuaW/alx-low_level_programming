@@ -3,10 +3,10 @@
  * main and void 
  *
  * Return: 0 for set int
- * /
- int(void)
+ */
+ int main(void)
  {
           puts("\"Programming is like building a multilingual puzzle");
-         return (0);	  
+          return (0);	  
 
  }
