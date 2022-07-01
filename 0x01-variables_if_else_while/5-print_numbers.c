@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - main block to execute
- * Description: prints all singele digits 
+ * Description: prints all singele digits
  * Return: 0 success
  */
 int main(void)
