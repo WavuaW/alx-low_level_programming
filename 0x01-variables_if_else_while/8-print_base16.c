@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block to be executed
- * Description: printing base 10 digits 
+ * Description: printing base 10 digits
  * Return: 0 Success
  */
 int main(void)
