@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block to be executed 
+ * main - main block to be executed
  * Description - prints lower case, then upper case then new line
  * Return: 0 success
  */
