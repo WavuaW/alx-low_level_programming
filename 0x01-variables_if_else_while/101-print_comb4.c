@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * main - main bloc to be executed 
  * Description: Write a program that prints all possible
  * different combinations of two digits
  * Numbers must be separated by ,, followed by a space
@@ -28,7 +29,7 @@ while (e < 10)
 		c = 0;
 		while (c < 10)
 		{
-			if (c != d && d !=e && e < d && d < c)
+			if (c != d && d != e && e < d && d < c)
 			{
 				putchar('0' + e);
 				putchar('0' + d);
