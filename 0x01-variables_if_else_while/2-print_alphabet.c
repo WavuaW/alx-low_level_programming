@@ -3,6 +3,7 @@
 /**
  * main - block to be executed
  * Description: prints alphabet in lower case
+ * Return: 0 success
  */
 int main(void)
 {
