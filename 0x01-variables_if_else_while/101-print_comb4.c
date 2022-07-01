@@ -42,9 +42,9 @@ while (e < 10)
 			}
 			c++;
 		}
-		c++;
+		d++;
 	}
-	c++;
+	e++;
 }
 putchar('\n');
 return (0);
