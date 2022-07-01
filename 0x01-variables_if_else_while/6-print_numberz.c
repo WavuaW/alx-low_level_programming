@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block to be executed 
+ * main - main block to be executed
  * Description: prints all single digits to base 10
  * Return: 0 success
  */
