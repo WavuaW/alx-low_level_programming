@@ -40,8 +40,8 @@ while (a <= n)
 			_putchar(',');
 			_putchar(' ');
 		}
-		_putchar('\n');
-		a++;
 	}
+	_putchar('\n');
+	a++;
 }
 }
