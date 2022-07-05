@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to 98 - prints to 98
+ * print_to_98 - prints to 98
  * @n : number to start from
  * Return:0 or 1
  */
