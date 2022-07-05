@@ -6,17 +6,23 @@
  */
 int main(void)
 {
-	int a = 0, b = 1, next = 0;
-	int sum = 0;
+	int i = 0;
+	long int a = 0, b = 1, next;
 
-	while (next < 4000000)
+	while (i < 50)
 	{
 		next = a + b;
 		a = b;
 		b = next;
-		if (next % 2 == 0)
-			sum += next;
+		printf("%lu", next);
+
+		if (i < 49)
+		{
+			printf(", ")
+		}
+		i++;
 	}
-	printf("%i\n", sum);
-	return (0);
+	putchar('\n');
+	return(0);
 }
+
