@@ -30,10 +30,13 @@ while (a <= 9)
 		}
 		if (b < 9)
 		{
-		_putchar('\n');
-		a++;
+		        _putchar(',')
+			_putchar(' ')
 		}
+		b++;
 	}
+	_putchar('\n');
+	a++;
 }
 }
 
