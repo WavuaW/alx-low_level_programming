@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints prime numbers 
+ * main - prints prime numbers
  * Return: Always 0
  */
 
