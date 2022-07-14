@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat: bytes of 2 strings
+ * *_strncat: bytes of 2 strings
  * @dest: ponter destination
  * @src:P source
  * @n: No. of bytes
