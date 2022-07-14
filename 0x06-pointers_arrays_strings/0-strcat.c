@@ -2,7 +2,7 @@
 /**
  * _strcat - concatenates two strings
  * @dest: pointer destination
- * src: source of pointer 
+ * @src: source of pointer
  * Return: void
  */
 
