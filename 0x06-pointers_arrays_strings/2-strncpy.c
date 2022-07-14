@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * *_strcpy - finds the length of the string
+ * *_strncpy - finds the length of the string
  * @dest: pointer to the string
  * @src: pointer
  * @n: int
  * Return: destination
  */
 
-char *_strcpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
