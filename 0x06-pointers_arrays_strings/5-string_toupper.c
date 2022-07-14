@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper - capitalize string
- * @str: pointer 
+ * @str: pointer
  * Return: capitalizied string
  */
 
