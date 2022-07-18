@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * _strstr: function to locate
- * @haystack: char pointer
- * @needle: char pointer
+ * _strstr - function locate
+ * @haystack: pointer to char
+ * @needle: pointer to char
  * Return: 0
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *result = haystack, *gneedle = needle;
+	char *result = haystack, *fneedle = needle;
 
 	while (*haystack)
 	{
@@ -23,9 +23,10 @@ char *_strstr(char *haystack, char *needle)
 		{
 			return (result);
 		}
-		needle = gneedle;
+		needle = fneedle;
 		result++;
 		haystack = result;
 	}
 	return (0);
+
 }
