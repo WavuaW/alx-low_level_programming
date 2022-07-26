@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * create_array - creates an array of strings 
+ * create_array - creates an array of strings
  * @size: size of the array
  * @c: Character
- * Retrun: Return 0
+ * Return: Return 0
  */
 
 char *create_array(unsigned int size, char c)
@@ -12,7 +12,7 @@ char *create_array(unsigned int size, char c)
 	char *t;
 	unsigned int i;
 
-	if(size == 0)
+	if (size == 0)
 	{
 		return (NULL);
 	}
@@ -23,11 +23,6 @@ char *create_array(unsigned int size, char c)
 	{
 		return (0);
 	}
-	for (i = 0; i < size; i++)
-	{
-		t[i] = c;
-	}
-	return (t);
-
+	for (i = 0; i < size 
 
 }
