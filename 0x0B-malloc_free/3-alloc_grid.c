@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grind - prints a frid of intefers
+ * alloc_grid - prints a frid of intefers
  * @width: width of the grid
  * @height: height of the grid
  * Return: pointer
