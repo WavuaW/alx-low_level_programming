@@ -1,19 +1,9 @@
 #include <stdio.h>
-
-
-
 /**
- *
- *  * main - Print the name of the file compiled from
- *
- *   * Return: 0;
- *
- *    */
-
-
-
+ * main - Print the name of the file compiled from
+ * Return: result
+ */
 int main(void)
-
 {
 
 		printf("%s\n", __FILE__);
