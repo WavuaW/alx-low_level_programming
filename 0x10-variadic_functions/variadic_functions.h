@@ -11,10 +11,25 @@ void _printstr(va_list list);
 void _printfloat(va_list list);
 void _printint(va_list list);
 
-typedef struct checker
+/**
+ * struct vars - character and function
+ * @tp: char
+ * @f: function
+ *
+ * Description: match the char with the function
+ */
+typedef struct vars
 {
-	char *type;
+
+	char *tp;
 
 	void (*f)();
-} checker;
+
+} var_t;
+
+void character(va_list lst);
+void integer(va_list lst);
+void floater(va_list lst);
+void str(va_list lst);
+
 #endif
