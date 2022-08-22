@@ -18,6 +18,7 @@ int append_text_to_file(const char *filename, char *text_content)
         {
                 for (urefu = 0; text_content[urefu];)
                         urefu++;
+
         }
 
         fungua = open(filename, O_WRONLY | O_APPEND);
@@ -25,8 +26,6 @@ int append_text_to_file(const char *filename, char *text_content)
 
         if (fungua == -1 || andika == -1)
                 return (-1);
-
         close(fungua);
-
         return (1);
 }
