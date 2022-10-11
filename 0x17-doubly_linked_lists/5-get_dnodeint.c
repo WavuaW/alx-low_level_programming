@@ -20,4 +20,8 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	}
 
 	return (head);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8d6690381a146344be86e2fc41be039e0b375cc3
